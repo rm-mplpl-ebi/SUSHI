@@ -1,0 +1,28 @@
+{
+  "name": "mroulette",
+  "version": "1.0.0",
+  "description": "[MRoulette]はweb上で簡単に使えるルーレットアプリです！",
+  "author": "masi",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@nuxtjs/google-analytics": "^2.2.3",
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "chart.js": "^2.9.3",
+    "chartjs-plugin-labels": "^1.1.0",
+    "nuxt": "^2.12.2",
+    "vue-chartjs": "^3.5.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.13.1",
+    "nodemon": "^1.19.4",
+    "sass-loader": "^7.3.1"
+  }
+}
